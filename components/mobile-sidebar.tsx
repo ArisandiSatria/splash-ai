@@ -8,7 +8,7 @@ import Sidebar from "@/components/sidebar";
 import { useEffect, useState } from "react";
 
 interface MobileSidebarProps {
-  apiLimitCount: number;
+  apiLimitCount?: number;
 }
 
 const MobileSidebar = ({ apiLimitCount }: MobileSidebarProps) => {
