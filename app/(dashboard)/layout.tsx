@@ -8,7 +8,8 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="h-full relative">
       <div className="hidden h-full md:flex md:w-80 md:flex-col md:fixed md:inset-y-0 bg-[#16164c]">
-        <Sidebar apiLimitCount={apiLimitCount} />
+        {/* <Sidebar apiLimitCount={apiLimitCount} /> */}
+        <Sidebar />
       </div>
       <main className="md:pl-80">
         <Navbar />
